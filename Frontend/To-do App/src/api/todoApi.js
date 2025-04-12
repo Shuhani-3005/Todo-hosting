@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5000/api/todos';
+const BASE_URL = 'https://todo-hosting-97bg.onrender.com';
 
 // GET all todos
 export const getTodos = () => axios.get(BASE_URL);
